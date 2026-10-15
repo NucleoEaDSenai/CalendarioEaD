@@ -1,1 +1,16 @@
 @import 'tailwindcss';
+
+/* CardPopUp: fundo e card surgem/somem suavemente (Radix aguarda a animação de saída). */
+@keyframes popup-fundo-entra { from { opacity: 0; } }
+@keyframes popup-fundo-sai { to { opacity: 0; } }
+@keyframes popup-card-entra { from { opacity: 0; transform: scale(0.96); } }
+@keyframes popup-card-sai { to { opacity: 0; transform: scale(0.96); } }
+
+.popup-fundo[data-state='open'] { animation: popup-fundo-entra 150ms ease-out; }
+.popup-fundo[data-state='closed'] { animation: popup-fundo-sai 120ms ease-in; }
+.popup-card[data-state='open'] { animation: popup-card-entra 160ms ease-out; }
+.popup-card[data-state='closed'] { animation: popup-card-sai 120ms ease-in; }
+
+@media (prefers-reduced-motion: reduce) {
+  .popup-fundo, .popup-card { animation: none !important; }
+}

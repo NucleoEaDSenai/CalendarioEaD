@@ -1,8 +1,9 @@
 import { isSameMonth, isToday, isWeekend } from "date-fns";
 import { Plus } from "lucide-react";
+import { useState } from "react";
 import { formatarDia } from "../lib/datas";
 import type { AusenciaComId, Feriado } from "../types";
-import { PopupAusencias } from "./PopupAusencias";
+import { CardPopUp } from "./CardPopUp";
 
 /** Mapa de calor: escurece conforme a quantidade de ausentes (1 / 2–3 / 4+). */
 function corPorQuantidade(n: number) {
@@ -26,6 +27,7 @@ export function DiaCelula({
   onAdicionar: () => void;
   onEditar: (a: AusenciaComId) => void;
 }) {
+  const [popupAberto, setPopupAberto] = useState(false);
   const bloqueado = isWeekend(dia) || !!feriado;
   const qtd = ausencias.length;
   const fora = !isSameMonth(dia, mes);
@@ -56,17 +58,16 @@ export function DiaCelula({
       className={`relative min-h-20 border-r border-b border-slate-200 sm:min-h-32 lg:min-h-36 xl:min-h-40 ${fundo} ${fora ? "opacity-45" : ""}`}
     >
       {qtd > 0 ? (
-        <PopupAusencias dia={dia} ausencias={ausencias} onEditar={onEditar}>
-          <button
-            className="flex h-full w-full flex-col items-start p-1.5 text-left sm:p-2"
-            aria-label={`${rotulo}: ${qtd} ausente${qtd > 1 ? "s" : ""}. Ver detalhes`}
-          >
-            {numero}
-            <span className="mt-auto rounded-md bg-sky-700 px-1.5 py-0.5 text-xs font-semibold text-white sm:px-2.5 sm:py-1 sm:text-sm">
-              {qtd}
-            </span>
-          </button>
-        </PopupAusencias>
+        <button
+          onClick={() => setPopupAberto(true)}
+          className="flex h-full w-full cursor-pointer flex-col items-start p-1.5 text-left sm:p-2"
+          aria-label={`${rotulo}: ${qtd} ausente${qtd > 1 ? "s" : ""}. Ver detalhes`}
+        >
+          {numero}
+          <span className="mt-auto rounded-md bg-sky-700 px-1.5 py-0.5 text-xs font-semibold text-white sm:px-2.5 sm:py-1 sm:text-sm">
+            {qtd}
+          </span>
+        </button>
       ) : (
         <div
           className="flex h-full flex-col p-1.5 sm:p-2"
@@ -94,6 +95,15 @@ export function DiaCelula({
           <Plus className="size-4 sm:size-5 cursor-pointer" />
         </button>
       )}
+
+      {/* Fecha sozinho se a última ausência do dia for excluída. */}
+      <CardPopUp
+        aberto={popupAberto && qtd > 0}
+        dia={dia}
+        ausencias={ausencias}
+        onFechar={() => setPopupAberto(false)}
+        onEditar={onEditar}
+      />
     </div>
   );
 }
