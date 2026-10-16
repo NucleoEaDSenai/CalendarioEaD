@@ -5,6 +5,7 @@ import { Header } from '../components/Header';
 import { ModalAusencia } from '../components/ModalAusencia';
 import { ModalFeriados } from '../components/ModalFeriados';
 import { ModalFerias } from '../components/ModalFerias';
+import { ResumoSemana } from '../components/ResumoSemana';
 import { useAusenciasDoMes } from '../hooks/useAusenciasDoMes';
 import { useFeriados } from '../hooks/useFeriados';
 import type { AusenciaComId } from '../types';
@@ -33,16 +34,24 @@ export function CalendarioPage() {
 
       <main className="mx-auto max-w-[1600px] px-2 py-4 sm:px-6">
         {erro && <p className="mb-3 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">Erro ao carregar ausências: {erro}</p>}
-        <div className={carregando ? 'opacity-60 transition-opacity' : 'transition-opacity'} aria-busy={carregando}>
-          <Calendario
-            mes={mes}
-            feriados={feriados}
-            porDia={porDia}
-            onAdicionar={(dia) => setModal({ tipo: 'ausencia', dia })}
-            onEditar={(ausencia) => setModal({ tipo: 'ausencia', ausencia })}
-          />
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-start">
+          <div className="min-w-0 flex-1">
+            <div className={carregando ? 'opacity-60 transition-opacity' : 'transition-opacity'} aria-busy={carregando}>
+              <Calendario
+                mes={mes}
+                feriados={feriados}
+                porDia={porDia}
+                onAdicionar={(dia) => setModal({ tipo: 'ausencia', dia })}
+                onEditar={(ausencia) => setModal({ tipo: 'ausencia', ausencia })}
+              />
+            </div>
+            <Legenda />
+          </div>
+          {/* No celular fica acima do calendário; no desktop, à direita. */}
+          <div className="order-first lg:order-none lg:sticky lg:top-4 lg:w-80 lg:shrink-0">
+            <ResumoSemana feriados={feriados} />
+          </div>
         </div>
-        <Legenda />
       </main>
 
       <ModalAusencia

@@ -3,570 +3,60 @@
     "usuarios": {
       "c5f49f60-8e93-439a-90e9-4758c2f0c468": {
         "nome": "João Marcelo França",
-        "email": "j123@gmail.com",
+        "email": "j1@j1.com",
         "papel": "lideranca"
       },
       "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40": {
         "nome": "jfranca",
-        "email": "kfranc@sls.com",
+        "email": "j2@j2.com",
         "papel": "membro"
       }
     },
     "ausencias": {
-      "c2e359b2-c60d-40ce-8169-1a89304f2084": {
+      "096ad507-5163-4d96-a2c4-8d2ac548f719": {
+        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
+        "nomeUsuario": "João Marcelo França",
+        "data": "2026-11-26",
+        "tipo": "folga",
+        "diaTodo": true,
+        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
+        "criadoEm": 1792146572602
+      },
+      "86849dc2-3d68-4f77-a4a7-769486b54dc3": {
         "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
         "nomeUsuario": "João Marcelo França",
         "data": "2026-10-22",
         "tipo": "folga",
         "diaTodo": true,
         "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084198050
+        "criadoEm": 1792146575491
       },
-      "52d07352-dbff-484a-a5e4-e819a3c1e0af": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-10-30",
+      "62771abd-b978-4393-bcf5-7f4ef07fb56d": {
+        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
+        "nomeUsuario": "jfranca",
+        "data": "2026-10-29",
         "tipo": "folga",
         "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084200765
+        "criadoPor": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
+        "criadoEm": 1792151566559
       },
-      "959259e4-a043-42a6-92df-e96798480508": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-10-30",
+      "34dd3c05-33d6-4522-9052-e1b48eb3f31d": {
+        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
+        "nomeUsuario": "jfranca",
+        "data": "2026-10-23",
         "tipo": "folga",
         "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084203411
+        "criadoPor": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
+        "criadoEm": 1792151574144
       },
-      "f767927a-21a3-4e7c-8835-598ea2a59a5a": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-10-30",
+      "226b41b9-9b20-472b-957a-68e90d69a235": {
+        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
+        "nomeUsuario": "jfranca",
+        "data": "2026-10-07",
         "tipo": "folga",
         "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084205781
-      },
-      "396dae75-e59a-482c-8125-0cff70a9a710": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-10-30",
-        "tipo": "folga",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084209343
-      },
-      "9ed1e2ba-ab37-4830-ae60-8571b7cabe41": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-03",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241984,
-        "motivo": "Férias"
-      },
-      "c9624aca-fcad-4148-8116-cd67484795b1": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-04",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "923ec29d-6c4b-423d-82cb-0e84f9117196": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-05",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "bc6bd556-ecde-4acb-961a-ef77475fa4dd": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-06",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "2405400b-5813-4d9f-8dbf-42a591b6d8bf": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-09",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "f7f4e1b9-dade-474f-b00a-bfd60435024c": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-10",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "cd575634-9827-4957-8eb6-93acfc2a5f7d": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-11",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "bd105052-f4ec-46cc-9efa-9a8e03b4f004": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-12",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "793c6910-0ae0-4eda-963f-ffd8f7722615": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-13",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "b3ad9e7a-ce82-4aad-a441-c736f4387307": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-16",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "6c007c25-0e36-4a93-be4f-ca117f73d933": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-17",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "1d630223-4a02-41bd-badf-7965279b52e8": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-18",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "8f99564d-361a-42b6-89e8-e30a403eae43": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-19",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "5a4b0d49-b63d-4037-9dac-d0f5d9f6d3e5": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-23",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "fe4ac58d-040d-4bae-a94f-52279c6678ff": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-24",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "cc808e1b-cec4-432b-ac17-926020d2fc59": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-25",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "0fc24012-be08-4b04-b802-9e9bcfa1af94": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-11-26",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792084241985,
-        "motivo": "Férias"
-      },
-      "49d65f84-513d-41f4-a420-da7743730ce7": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-01",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "679f7d36-c88f-4236-a139-0abc23ccea82": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-02",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "6c02a319-6942-4470-b1b5-2151d5addb5c": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-03",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "940c0698-e744-452f-8f34-26359cb63b6e": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-04",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "570fa6d6-e5d2-496e-a3e0-7a019157a1dd": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-07",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "2490f0cd-08e4-4fd6-9d67-c8f5c18ed9d1": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-08",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "3a937a2c-aa59-4521-8aa4-059dae10079b": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-09",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "711d0854-83be-4845-8f94-500706a97b9f": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-10",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "4ebc1a35-a5cd-4ba6-9a62-8f3664c53f1d": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-11",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "7ef830a9-e5bb-4d1b-92dc-a7931467f729": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-14",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "912c0e5b-bb21-495d-aa41-a852f0aab38d": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-15",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "f8a9f6d1-4608-437d-a761-2ea1c99bd974": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-16",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "b04081d8-2196-4503-bbb7-13dc3772a12a": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-17",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "1860965b-eee2-48e1-8e1f-a6783180f7b1": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-18",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "47d62ed5-d0d4-4437-bd27-f6561554f7af": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-21",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "8ab52871-0a5a-45b5-85fa-643c03899c7c": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-22",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "17b1e225-4c3a-4b87-b5db-812c5d8eae9f": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-23",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "137b1989-9dc2-47c9-b2a5-70153ace1a59": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-24",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "e9f1a80d-85dd-4b09-a1e9-f008cbd760a7": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-28",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "c49b0f43-1b95-4415-bbd9-c9e1960c94ff": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-29",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "6046b01b-c795-4ee4-a088-06b954c37612": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-30",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "f770215e-b8e9-4ebb-92a7-e27f2c411d3a": {
-        "userId": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "nomeUsuario": "João Marcelo França",
-        "data": "2026-12-31",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103634355,
-        "motivo": "Férias"
-      },
-      "89213dd5-9a08-4533-a098-95c75794b2c4": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-15",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "0ad6657b-846f-41ba-a431-0fbd1f6213d2": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-16",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "94a3731e-b054-4887-a4b6-622f2d6e4049": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-17",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "16b2c5be-87c7-459c-8bd8-6034b2cadc64": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-18",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "594d47f1-b733-4bd9-9680-006956ae9d63": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-21",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "a323e446-585b-465e-a18a-fbab10d97699": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-22",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "209de190-e25f-4368-bed2-af9b035e990d": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-23",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "25e6794a-49ba-4a94-ba43-aa332d975ba9": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-24",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "dd1a9fe4-f3e9-4e0a-8b4b-6eba12838275": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-28",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "6f5fd4ea-35c7-44ca-9e3f-d3d8466f80ef": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-29",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "5065302e-66fb-46ff-8b42-a70631321a79": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-30",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
-      },
-      "1e665f67-2833-4a2c-8a02-7273dff09348": {
-        "userId": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
-        "nomeUsuario": "jfranca",
-        "data": "2026-12-31",
-        "tipo": "ferias",
-        "diaTodo": true,
-        "criadoPor": "c5f49f60-8e93-439a-90e9-4758c2f0c468",
-        "criadoEm": 1792103658680,
-        "motivo": "Férias"
+        "criadoPor": "f7b1ac72-cb68-4b70-b042-4f34e4cf3a40",
+        "criadoEm": 1792151864743
       }
     },
     "feriados": {
@@ -626,9 +116,177 @@
         "nome": "Natal",
         "tipo": "nacional"
       },
-      "2026-10-16": {
-        "nome": "EMPRESA FECHADA PARA LIMPEZA",
+      "2027-01-01": {
+        "nome": "Confraternização mundial",
         "tipo": "nacional"
+      },
+      "2027-02-08": {
+        "nome": "Carnaval",
+        "tipo": "nacional"
+      },
+      "2027-02-09": {
+        "nome": "Carnaval",
+        "tipo": "nacional"
+      },
+      "2027-03-26": {
+        "nome": "Sexta-feira Santa",
+        "tipo": "nacional"
+      },
+      "2027-03-28": {
+        "nome": "Páscoa",
+        "tipo": "nacional"
+      },
+      "2027-04-21": {
+        "nome": "Tiradentes",
+        "tipo": "nacional"
+      },
+      "2027-05-01": {
+        "nome": "Dia do trabalho",
+        "tipo": "nacional"
+      },
+      "2027-05-27": {
+        "nome": "Corpus Christi",
+        "tipo": "nacional"
+      },
+      "2027-09-07": {
+        "nome": "Independência do Brasil",
+        "tipo": "nacional"
+      },
+      "2027-10-12": {
+        "nome": "Nossa Senhora Aparecida",
+        "tipo": "nacional"
+      },
+      "2027-11-02": {
+        "nome": "Finados",
+        "tipo": "nacional"
+      },
+      "2027-11-15": {
+        "nome": "Proclamação da República",
+        "tipo": "nacional"
+      },
+      "2027-11-20": {
+        "nome": "Dia da consciência negra",
+        "tipo": "nacional"
+      },
+      "2027-12-25": {
+        "nome": "Natal",
+        "tipo": "nacional"
+      },
+      "2028-01-01": {
+        "nome": "Confraternização mundial",
+        "tipo": "nacional"
+      },
+      "2028-02-28": {
+        "nome": "Carnaval",
+        "tipo": "nacional"
+      },
+      "2028-02-29": {
+        "nome": "Carnaval",
+        "tipo": "nacional"
+      },
+      "2028-04-14": {
+        "nome": "Sexta-feira Santa",
+        "tipo": "nacional"
+      },
+      "2028-04-16": {
+        "nome": "Páscoa",
+        "tipo": "nacional"
+      },
+      "2028-04-21": {
+        "nome": "Tiradentes",
+        "tipo": "nacional"
+      },
+      "2028-05-01": {
+        "nome": "Dia do trabalho",
+        "tipo": "nacional"
+      },
+      "2028-06-15": {
+        "nome": "Corpus Christi",
+        "tipo": "nacional"
+      },
+      "2028-09-07": {
+        "nome": "Independência do Brasil",
+        "tipo": "nacional"
+      },
+      "2028-10-12": {
+        "nome": "Nossa Senhora Aparecida",
+        "tipo": "nacional"
+      },
+      "2028-11-02": {
+        "nome": "Finados",
+        "tipo": "nacional"
+      },
+      "2028-11-15": {
+        "nome": "Proclamação da República",
+        "tipo": "nacional"
+      },
+      "2028-11-20": {
+        "nome": "Dia da consciência negra",
+        "tipo": "nacional"
+      },
+      "2028-12-25": {
+        "nome": "Natal",
+        "tipo": "nacional"
+      },
+      "2029-01-01": {
+        "nome": "Confraternização mundial",
+        "tipo": "nacional"
+      },
+      "2029-02-12": {
+        "nome": "Carnaval",
+        "tipo": "nacional"
+      },
+      "2029-02-13": {
+        "nome": "Carnaval",
+        "tipo": "nacional"
+      },
+      "2029-03-30": {
+        "nome": "Sexta-feira Santa",
+        "tipo": "nacional"
+      },
+      "2029-04-01": {
+        "nome": "Páscoa",
+        "tipo": "nacional"
+      },
+      "2029-04-21": {
+        "nome": "Tiradentes",
+        "tipo": "nacional"
+      },
+      "2029-05-01": {
+        "nome": "Dia do trabalho",
+        "tipo": "nacional"
+      },
+      "2029-05-31": {
+        "nome": "Corpus Christi",
+        "tipo": "nacional"
+      },
+      "2029-09-07": {
+        "nome": "Independência do Brasil",
+        "tipo": "nacional"
+      },
+      "2029-10-12": {
+        "nome": "Nossa Senhora Aparecida",
+        "tipo": "nacional"
+      },
+      "2029-11-02": {
+        "nome": "Finados",
+        "tipo": "nacional"
+      },
+      "2029-11-15": {
+        "nome": "Proclamação da República",
+        "tipo": "nacional"
+      },
+      "2029-11-20": {
+        "nome": "Dia da consciência negra",
+        "tipo": "nacional"
+      },
+      "2029-12-25": {
+        "nome": "Natal",
+        "tipo": "nacional"
+      },
+      "2026-10-20": {
+        "nome": "EMPRESA FECHADA PARA LIMPEZA",
+        "tipo": "outro"
       }
     }
   }

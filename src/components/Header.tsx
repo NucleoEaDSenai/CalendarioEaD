@@ -26,8 +26,8 @@ export function Header({
   const importar = async () => {
     setImportando(true);
     try {
-      const { total } = await importarDaBrasilAPI(ano);
-      avisar(`${total} feriados de ${ano} importados`);
+      const { total } = await importarDaBrasilAPI([ano, ano + 1]);
+      avisar(`${total} feriados de ${ano} e ${ano + 1} importados`);
     } catch (e) {
       avisar((e as Error).message, 'erro');
     } finally {
@@ -63,7 +63,7 @@ export function Header({
           {isLideranca && (
             <>
               <button className={`${estilos.botaoSecundario} px-3 py-1.5`} onClick={importar} disabled={importando}>
-                <Download className="size-4" /> {importando ? 'Importando…' : `Importar feriados ${ano}`}
+                <Download className="size-4" /> {importando ? 'Importando…' : `Importar feriados ${ano}–${ano + 1}`}
               </button>
               <button className={`${estilos.botaoSecundario} px-3 py-1.5`} onClick={onGerenciarFeriados}>
                 <Flag className="size-4" /> Feriados locais
