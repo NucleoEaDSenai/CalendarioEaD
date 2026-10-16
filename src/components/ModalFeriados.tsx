@@ -75,7 +75,7 @@ export function ModalFeriados({
 
       <h3 className="mt-5 mb-2 text-sm font-semibold text-slate-700">Feriados de {ano}</h3>
       {doAno.length === 0 ? (
-        <p className="text-sm text-slate-500">Nenhum feriado cadastrado. Use "Importar feriados {ano}" no topo.</p>
+        <p className="text-sm text-slate-500">Nenhum feriado cadastrado. Use "Importar feriados" no topo.</p>
       ) : (
         <ul className="divide-y divide-slate-100 text-sm">
           {doAno.map(([d, f]) => (
